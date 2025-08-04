@@ -3,7 +3,7 @@
 //write your code here
 
 
-var area=2060;
+var area=800;
 var numOfBrother = 2;
 var landReceived =(area/numOfBrother);
 console.log(landReceived);

@@ -1,12 +1,12 @@
-var lastDay=11;
-var medicineDay= lastDay;
-for(var i=3; i<=lastDay; i=i+3){
-    console.log(i)
-    if(){
-        console.log("medicine")
+/** Problem -03 ( Medicine Planner ) */
+var lastDay = 11 ;
+//write your code here
+
+for(var i=1; i<=lastDay; i++){
+    if(i%3 ===0){
+        console.log(i, '-', 'medicine');
     }
     else{
-        console.log("rest")
+        console.log(i, '-', 'rest');
     }
-    
 }
